@@ -1,5 +1,6 @@
 # maximum sum contiguous sub array
 # kadane's algorithm
+# All test cases passed GFG
 def kadane(arr, n):
     max_global = arr[0]
     max_current = arr[0]

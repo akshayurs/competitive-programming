@@ -1,5 +1,5 @@
 # smallest integer that cannot be represented as sum of subset sorted array
-
+# All test cases passes GFG
 def smallestInt(arr):
     res = 1
     for i in arr:

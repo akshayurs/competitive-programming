@@ -1,6 +1,7 @@
 # Happy number - Sum of squares of digits recursively comes to one
 
 # false condition - getting sum which is already occurred
+# All test cases passed Leet code
 
 def happyNumber(n):
     sums = set()

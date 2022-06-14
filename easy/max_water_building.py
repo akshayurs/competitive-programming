@@ -1,5 +1,5 @@
 # maximum water can be filled between the buildings
-
+# All test cases passed Leet code
 def maxWater(arr, n):
     maxL = left = 0
     maxR = right = n-1

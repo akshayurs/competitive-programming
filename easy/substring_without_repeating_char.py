@@ -1,4 +1,5 @@
 # Maximum length of substring without repeating char
+# All test cases passes GFG
 
 def check_substring(string, n):
     # last occurrence of the character
@@ -11,8 +12,6 @@ def check_substring(string, n):
     for i in range(n):
         if string[i] in char_map:
             left = max(left, char_map[string[i]]+1)
-        print(string[i],
-              (left, right, maxLength), char_map)
         char_map[string[i]] = i
         right += 1
         if maxLength < right-left:

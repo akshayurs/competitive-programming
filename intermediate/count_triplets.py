@@ -1,3 +1,5 @@
+#  Time limit exceeded in GFG (Even for standard GFG solution)
+
 def countTriplets(arr, n):
     ans = 0
     maxValue = max(arr)
