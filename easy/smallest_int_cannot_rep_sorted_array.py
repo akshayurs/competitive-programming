@@ -9,3 +9,4 @@ def smallestInt(arr):
 
 
 print(smallestInt([1, 1, 2, 5]))  # 10
+print(smallestInt([7, 8, 9, 1]))  # 2
