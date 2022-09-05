@@ -1,7 +1,6 @@
 # O(klogn)
 # all test cases pass InterviewBit
 def heapify(arr, n, i):
-    heap = False
     smallest = i
     left = 2*i+1
     right = 2*i+2
