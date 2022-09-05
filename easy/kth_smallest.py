@@ -1,8 +1,5 @@
 # O(klogn)
 # all test cases pass InterviewBit
-from array import array
-
-
 def heapify(arr, n, i):
     heap = False
     smallest = i
